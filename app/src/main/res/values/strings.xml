@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">MaterialComponents</string>
+
+    <string name="welcome_text">Welcome to Rentify</string>
+    <string name="app_slogan">Find perfect accommodations \nfor peaceful living</string>
+    <string name="no_account"><html>Don\'t have an account?<font color="#6200EA"> Sign Up</font> </html></string>
+    <string name="already_a_member"><html>Already a member?<font color='#FF0063'> Login</font> </html></string>
+    <string name="sign_up_title">Sign up on Rentify</string>
+    <string name="sign_up">SignUp</string>
+    <string name="username">Username</string>
+    <string name="name">Full name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="home">home</string>
+    <string name="detail">detail</string>
+    <string name="bed">2 bedroom</string>
+    <string name="bath">2 bathroom</string>
+    <string name="kitchen">1 kitchen</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="television">Television</string>
+    <string name="parking">Parking</string>
+    <string name="Laundry">Laundry</string>
+
+    <string name="alert_username">Please enter username</string>
+    <string name="alert_name">Please enter your name</string>
+    <string name="alert_password">Please enter your password</string>
+    <string name="alert_retype_password">Passwords do not match!</string>
+    <string name="alert_login">Please try facebook login!</string>
+    <string name="help_password">Password length must be greater than 8</string>
+    <string name="help_retype_password">Retype your password</string>
+    <string name="login_success">Successfully logged in!</string>
+    <string name="signup_success">Successfully signed up!</string>
+    <string name="on_sale">ON SALE</string>
+
+    <string name="property1_name">Malibu Dream Airstream</string>
+    <string name="property2_name">Unique Cob Cottage</string>
+    <string name="property3_name">Off-grid itHouse</string>
+    <string name="desc1">Hello everyone Sea hut is a home stay with 4 independent double bed rooms on a common veranda.The room has a king size double bed and an aircon in it. Its a perfect retreat for tourist who want to run away from the hectic city\'s.</string>
+    <string name="desc2">We have a unique space that gives you an opportunity of being in the wilderness, while staying in the heart of the city. It has a beautiful terrace overlooking the lake, located in hauz khas village one of the best neighbourhoods in South Delhi</string>
+    <string name="desc3">WOODEN CHALET ON THE RIVER BANKS is one of the three beautiful Heritage riverside properties (please check out LAZY COTTAGE ON THE RIVER BANKS and SAINT PETER\'S BAY) true Wooden Chalets situated on the banks of one of Goa\'s largest River.
+The house is centrally located, just 10 minutes to the Panjim Central Bus Stand which is equidistant from North and South Goa. Just a 5 minutes\' walk from the house to the Ribandar Town Center (or Patto as it is known in Goa), where you will find available dry provisions, fresh vegetables, meats and fish besides a chemist and a fast food shop. The bus stand is also situated here. All buses end their journey at the Panjim Main bus stand from where you can get all sorts of transports and car and two wheeler hire. The road going Eastwards will take you to the ancient Portuguese Capital city of Goa known as Old Goa which is just 6 Km away. Goa was the only overseas State of Portugal known as "Estado da India" and most of the history lies in this city of Old Goa. This is a location having world famous historical sites and numerous Cathedrals including the Cathedral of Bom Jesu where the body of St. Francis Xavier is preserved and visible to date.
+Car and bike rental facilities are also available for which information will be provided.</string>
+
+
+    <string name="home_highlight"><html><font color="#292929"><font size="12">HOME HIGHLIGHTS</font></font>
+        \n\n<b><font color="#292929">Hideout is a Superhost ·</font></b>  Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.
+        \n\n<b><font color="#292929">Great location ·</font></b> 90% of recent guests gave this home’s location a 5-star rating.
+        \n\n<b><font color="#292929">Great check-in experience ·</font></b> 95% of recent guests gave this home’s check-in process a 5-star rating.</html></string>
+    <string name="about_me">Hii I am subir chakraborty
+        \n\nsoftware engineer by profession
+        \ntraveller by soul
+        \nphotographer by hobby
+        \ndreamer by nature
+        \nartist by birth
+        \n\nI love coding in java and a newbie in kotlin
+        \nsome dummy info which has no relation at all
+        \nthanks for nothing
+        \n\nlorem ipsom
+        \nlorem ipsum
+        \nlorem ipsum
+        \nlorem
+        \nlorem
+        \nlorem</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

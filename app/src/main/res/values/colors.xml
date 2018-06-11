@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#F22613</color>
+
+    <!--login colors-->
+    <color name="colorLoginPrimary">#6200EA</color>
+    <color name="colorLoginAccent">#6200EA</color>
+
+    <color name="colorPink">#FFF06292</color>
+    <color name="colorDribble">#FF0063</color>
+    <color name="colorFacebook">#5850D3</color>
+    <color name="colorLinkedIn">#5082F6</color>
+    <color name="colorLightBlue">#82b1ff</color>
+    <color name="colorCharcoal">#292929</color>
+    <color name="colorTans80Charcoal">#80292929</color>
+    <color name="colorFlamingo">#EF4836</color>
+    <color name="colorWistful">#AEA8D3</color>
+    <color name="colorHummingBird">#C5EFF7</color>
+    <color name="colorCapeHoney">#FDE3A7</color>
+    <color name="colorYellow">#FFE461</color>
+    <color name="colorPorcelain">#ECF0F1</color>
+    <color name="colorPumice">#D2D7D3</color>
+    <color name="colorRiptide">#86E2D5</color>
+    <color name="colorShamrock">#2ECC71</color>
+    <color name="colorPorcelainTrans80">#b4ecf0f1</color>
+</resources>

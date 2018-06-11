@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/flContainerHome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.design.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            style="@style/Widget.MaterialComponents.BottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+            app:backgroundTint="@color/colorAccent"
+            app:fabAttached="true"
+            app:fabCradleRoundedCornerRadius="10dp"
+            app:fabCradleDiameter="75dp"
+            app:title="@string/detail"
+            app:titleTextColor="@android:color/black"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:src="@drawable/ic_dribble"
+            app:layout_anchor="@id/bottomAppBar" />
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

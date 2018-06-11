@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rlParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivProperty"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/house3" />
+
+                <TextView
+                    android:id="@+id/tvProperty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:padding="10dp"
+                    android:text="@string/welcome_text"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:padding="10dp"
+                    android:textIsSelectable="true"
+                    android:text="@string/welcome_text"
+                    android:textColor="@color/colorCharcoal"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <android.support.design.chip.ChipGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <!-- Chips can be declared here, or added dynamically. -->
+
+                    <android.support.design.chip.Chip
+                        style="@style/Widget.MaterialComponents.Chip.Action"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/favorite"
+                        android:layout_centerVertical="true"
+                        app:chipBackgroundColor="@color/colorFlamingo"
+                        app:chipIcon="@drawable/ic_bed"
+                        app:chipStartPadding="10dp"
+                        app:chipStrokeColor="@color/colorAccent"
+                        app:chipStrokeWidth="2dp"
+                        app:chipText="@string/bed" />
+
+                    <android.support.design.chip.Chip
+                        style="@style/Widget.MaterialComponents.Chip.Action"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/favorite"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        app:chipBackgroundColor="@color/colorRiptide"
+                        app:chipIcon="@drawable/ic_bathtub"
+                        app:chipStartPadding="10dp"
+                        app:chipStrokeColor="@color/colorShamrock"
+                        app:chipStrokeWidth="2dp"
+                        app:chipText="@string/bath" />
+
+                    <android.support.design.chip.Chip
+                        style="@style/Widget.MaterialComponents.Chip.Action"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/favorite"
+                        android:layout_centerVertical="true"
+                        app:chipBackgroundColor="@color/colorPorcelain"
+                        app:chipIcon="@drawable/ic_kitchen"
+                        app:chipStartPadding="10dp"
+                        app:chipStrokeColor="@color/colorPumice"
+                        app:chipStrokeWidth="2dp"
+                        app:chipText="@string/kitchen" />
+
+                </android.support.design.chip.ChipGroup>
+
+                <android.support.design.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:translationZ="2dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="3dp"
+                    app:cardUseCompatPadding="true"
+                    app:strokeColor="@color/colorShamrock"
+                    app:strokeWidth="2dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/home_highlight"
+                        android:visibility="visible" />
+                </android.support.design.card.MaterialCardView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="?attr/actionBarSize">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fabAdd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/ic_add"
+                        app:backgroundTint="@color/colorShamrock"
+                        app:fabSize="mini" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/hsvChip"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="30dp"
+                        android:scrollbars="none">
+
+                        <android.support.design.chip.ChipGroup
+                            android:id="@+id/cgChips"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:clipToPadding="false"
+                            android:paddingStart="24dp"
+                            android:visibility="gone"
+                            app:singleLine="true">
+
+                            <!-- Chips can be declared here, or added dynamically. -->
+                            <android.support.design.chip.Chip
+                                style="@style/Widget.MaterialComponents.Chip.Entry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                app:chipBackgroundColor="@color/colorFlamingo"
+                                app:chipIcon="@drawable/ic_milk"
+                                app:chipStartPadding="10dp"
+                                app:chipStrokeColor="@color/colorAccent"
+                                app:chipStrokeWidth="2dp"
+                                app:chipText="@string/breakfast" />
+
+                            <android.support.design.chip.Chip
+                                style="@style/Widget.MaterialComponents.Chip.Entry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                app:chipBackgroundColor="@color/colorRiptide"
+                                app:chipIcon="@drawable/ic_television"
+                                app:chipStartPadding="10dp"
+                                app:chipStrokeColor="@color/colorShamrock"
+                                app:chipStrokeWidth="2dp"
+                                app:chipText="@string/television" />
+
+                            <android.support.design.chip.Chip
+                                style="@style/Widget.MaterialComponents.Chip.Entry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                app:chipBackgroundColor="@color/colorPorcelain"
+                                app:chipIcon="@drawable/ic_parking"
+                                app:chipStartPadding="10dp"
+                                app:chipStrokeColor="@color/colorPumice"
+                                app:chipStrokeWidth="2dp"
+                                app:chipText="@string/parking" />
+
+                            <android.support.design.chip.Chip
+                                style="@style/Widget.MaterialComponents.Chip.Entry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                app:chipBackgroundColor="@color/colorLightBlue"
+                                app:chipIcon="@drawable/ic_washing_machine"
+                                app:chipStartPadding="10dp"
+                                app:chipStrokeColor="@color/colorFacebook"
+                                app:chipStrokeWidth="2dp"
+                                app:chipText="@string/Laundry" />
+
+                        </android.support.design.chip.ChipGroup>
+                    </HorizontalScrollView>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:chipBackgroundColor="@color/colorPorcelainTrans80"
+                app:chipIcon="@drawable/ic_sale"
+                app:chipStrokeWidth="2dp"
+                app:chipText="@string/on_sale" />
+
+            <ImageView
+                android:id="@+id/favorite"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:scaleType="center"
+                android:src="@drawable/ic_heart" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</layout>
