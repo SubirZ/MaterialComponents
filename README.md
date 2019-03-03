@@ -14,4 +14,4 @@ Demonstrating newly added properties
 
 ![](https://i.imgur.com/CDBCJfH.gif)
 
-Jump animation created by tweaking the behaviour of BottomAppBar
+Jump animation created by playing around the behaviour of BottomAppBar
